@@ -1,0 +1,123 @@
+._containerListProduk_{
+    width: 94%;
+    height: 90em;
+    margin-top: -2em;
+}
+
+._ListProdukText_{
+    width: 100%;
+    height: 8em;
+    margin-left:6em;
+    margin-top: 5em;
+}
+
+._ListProdukText_ h1, p {
+    color: black;
+}
+
+._ListProdukText_ h1{
+    font-size: 3em;
+}
+
+._ListProdukText_ p{
+    font-size: 1.5em;
+}
+
+._ListProdukImage_{
+ width: 90%;
+ height: 70em;
+ margin: 0 auto;
+ margin-top: 4em;
+ margin-left: 7em;
+ display: grid;
+ grid-gap: 50px;
+ grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+ background-color: #ff4e5b;
+ border-radius: 1em;
+}
+
+._ListProdukImage_ p{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+._button_{
+   margin-top: 1em;
+   margin-left: 3.5em;
+}
+
+._buttonDetail_,._buttonBuy_{
+    height:3em;
+    margin: 1em;
+    width: 7em;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+._buttonBuy_{
+    color: black ;
+    background-color: #ff3385;
+}
+
+._buttonDetail_{
+    color: #ff3385 ;
+    background-color: white;
+}
+
+.box{
+    width: 25em;
+    height: 30em;
+    border: 1px solid black;
+    margin-top: 1em;
+    background-color: white;
+    margin-left: 1.5em;
+}
+
+.box > img{
+    padding-left: 5em;
+    width: 15em;
+}
+
+.box > h1{
+    text-align: center;
+    margin-top: 1.5em;
+    color: black;   
+}
+
+._modalContainer_{
+    display: flex;
+}
+
+._modalDeskripsi_{
+    text-align: center;
+    color: black;
+}
+
+._modalImage_{
+    height: 70%;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.gambar{
+    width: 25em;
+    margin-left:5em ;
+    margin-right: 5em;
+    margin-top: 2em;
+    padding-bottom: 3em;
+}
+
+._modalButtonClose_{
+    margin-top: 1em;
+    width: 5em;
+    background-color: #ff3385;
+    color: black;
+    font-size: 2em;
+}
+
+.detail > li{
+    font-size: 2em;
+    margin: 0.5em;
+    
+}

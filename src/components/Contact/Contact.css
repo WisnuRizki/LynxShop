@@ -1,0 +1,65 @@
+._containerContact_{
+    width: 100%;
+    height: 50em;
+}
+
+._containerContact_ h1{
+    color: black;
+    margin-left: 3em;
+    font-size: 3em;
+}
+
+._contactNowForm_{
+    width: 95%;
+    height: 40em;
+    margin: 0 auto;
+    display: flex;
+}
+
+._formContact_,._ourShop_{
+    width: 45%;
+    height: 40em;
+    margin: 0 auto;
+   
+}
+
+._ourShop_{
+    background-image: url('../image/shop-banner.png');
+
+}
+
+._ourShop_ button{
+    font-size: 3em;
+    width: 5em;
+    background-color: white;
+    margin: 5em;
+}
+
+
+
+._formContact_{
+    background-color: #343a40;
+}
+
+._formContact_ input{
+    margin-top: 4em;
+    height: 4em;
+    width: 80%;
+    margin-left: 5em;
+}
+
+::placeholder {
+   margin-left: 1em;
+    font-size: 1.5em;
+  }
+
+._formContact_ button{
+   margin-left: 4em;
+   margin-top: 3em;
+   width: 8em;
+   height: 4em;
+   background-color: #ff4e5b;
+   font-size: 1em;
+   color: white;
+}
+

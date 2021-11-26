@@ -1,0 +1,80 @@
+._headerBanner_{
+    display: flex;
+    width: 100%;
+    height: 40.5em;
+}
+
+._headerBannerNews_{
+    margin-left: 4em;
+    width: 45%;
+    height: 100%;
+}
+
+._headerBannerNewsText_{
+    width: 60%;
+    height: 80%;
+    margin: 2em auto;
+    margin-top: 6em;
+    margin-right: 4em;
+}
+
+._headerBannerNewsInfo_{
+    color: #ff3385;
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+._headerBannerNewsQuote_{
+    color: white;
+    font-size: 3.5em;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: -1em;
+}
+
+._headerBannerNewsButton_{
+    display: flex;
+}
+._headerBannerNewsButton_ button{
+    width: 10em;
+    height: 2em;
+    margin: 1em;
+}
+
+._headerBannerNewsButtonBuy_{
+    background-color: #ff3385;
+    font-size: 1.5em;
+}
+
+._headerBannerNewsButtonSee_{
+    font-size: 1.5em;
+    color: #ff3385 ;
+    background-color: white;
+
+}
+
+._headerBannerNewsDesc_{
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: -1em;
+}
+
+._headerBannerNewsButton_{
+    justify-content: center;
+    margin-top: 2em;
+}
+
+._headerBannerImage_{
+    width: 45%;
+    height: 100%;
+}
+
+._headerBannerImage_ img{
+    width: 40em;
+}
+
+h1{
+    color: white;
+}

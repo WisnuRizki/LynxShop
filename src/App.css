@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+._headerContainer_{
+ 
+  height: 50em;
+  border: 1px solid black;
+  background-image: url('./components/image/banner.png');
+}

@@ -1,0 +1,19 @@
+._headerMenu_{
+    width: 100%;
+    height: 4em;
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+}
+
+._leftLogo_{
+    float: left;
+}
+
+._headerMenu_ a{
+    font-size: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+    color: white;
+    cursor: pointer;
+}
